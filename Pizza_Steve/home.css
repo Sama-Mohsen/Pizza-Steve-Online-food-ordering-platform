@@ -1,0 +1,188 @@
+*{padding: 0; margin: 0; box-sizing: border-box}
+
+ul
+{
+  list-style: none;
+}
+a
+{
+  text-decoration: none;
+}
+
+#navbar
+{
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: #1D1D1D;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+#navbar img
+{
+width: 150px;
+  margin-left: 100px;
+}
+
+
+#navbar ul
+{
+  display: flex;
+  margin-right:100px ;
+}
+
+#navbar ul li a
+{
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover
+{
+  border: rgba(231, 61, 12, 0.24) 2px solid;
+  border-radius: 30px;
+  background-color: rgba(231, 61, 12, 0.24);
+}
+
+.chef_text
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: #1D1D1D;
+  height: 620.5px;
+  width:100%;
+}
+
+
+.btn
+{
+  display: inline-block;
+  padding: 20px 47px 20px 47px;
+  border: solid 2px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-btn
+{
+  display: inline-block;
+  padding: 20px 47px 20px 47px;
+  border: solid 2px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  color:#e73d0c ;
+  margin: 34px auto 0 0;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.menu-btn:hover{
+  background-color: #e73d0c;
+}
+.menu-btn p
+{
+  color: white;
+}
+
+.sec_btn
+{
+  color:#e73d0c ;
+  margin: 34px auto 0 0;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.sec_btn:hover
+{
+  background-color: #e73d0c;
+  color: white;
+}
+
+.image1
+{
+  background-image: url("chef.png");
+  background-size: cover;
+  height: 620.5px;
+  width: 954px;
+}
+
+.content
+{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  margin-top: -5%;
+  margin-left: 20%;
+}
+.content h1
+{
+  font-size: 50px;
+}
+.content p
+{
+margin-top: 10px;
+}
+
+.container {
+  margin: auto;
+  max-width: 70%;
+
+}
+
+#welcome_page
+{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#welcome_page img
+{
+  width: 600px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+#welcome_page h1
+{
+  font-size: 60px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #e73d0c;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  align-items: center;
+}
+
+.welcome
+{
+  font-size: 20px;
+font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#welcome_page .welcome_page_content div{
+  margin-top: 10%;
+}
+
+#welcome_page .welcome_page_content
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph1
+{
+  font-size: 20px;
+  margin-bottom: 20px;
+}

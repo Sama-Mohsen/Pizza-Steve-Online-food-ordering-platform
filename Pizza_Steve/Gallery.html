@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+  <link rel="icon" href="bar_icon.png">
+  <style>
+      *{padding: 0; margin: -4px 0 0 0; box-sizing: border-box}
+
+      ul
+      {
+        list-style: none;
+      }
+      a
+      {
+        text-decoration: none;
+      }
+      #navbar
+      {
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+        background-color: #1D1D1D;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+      }
+      #navbar img
+      {
+        width: 150px;
+        margin-left: 100px;
+      }
+
+
+      #navbar ul
+      {
+        display: flex;
+        margin-right:100px ;
+      }
+
+      #navbar ul li a
+      {
+        padding: 15px 20px;
+        color: white;
+        font-weight: bold;
+      }
+
+      #navbar ul li a:hover
+      {
+        border: rgba(231, 61, 12, 0.24) 2px solid;
+        border-radius: 30px;
+        background-color: rgba(231, 61, 12, 0.24);
+      }
+
+        /*Gallery Section Start*/
+#gallery .img-gallery img {
+  width: 200px;
+  height:200px;
+  border-radius: 15px;
+  margin:20px;
+}
+.container1{
+  padding: 150px 0;
+  background-color: #1A1A1A  ;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 10px 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-radius: 15px;
+}
+.w{
+  padding-right: 10px;
+   text-align: center ;
+   color:  #e73d0c;
+   /*font-weight: 500;*/
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.w1{
+  text-align: center ;
+  color: whitesmoke;
+}
+
+.container1 div{
+  display: block;
+  margin-top:-20px ;
+  margin-bottom: 30px;
+}
+
+
+/*Gallery Section End*/
+    </style>
+</head>
+<body>
+
+<!--start header-->
+<header>
+  <div id="navbar">
+    <img src="logo.png" alt="Pizza Steve Logo">
+    <nav>
+      <ul>
+        <li>
+          <a href="home.html">Home</a>
+          <a href="Menu.html">Menu</a>
+          <a href="reservation.html">Reservation</a>
+          <a href="Gallery.html">Gallery</a>
+          <a href="Story.html">Our Story</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!--end header-->
+
+    <!-- Section Gallery Start -->
+    <section id="gallery">
+        <div class="container1">
+           <div class="tx">
+             <h2 class="w">Satisfy Your Pizza<br> Cravings Today! </h2>
+              <p class="w1">Stop by and find out what all the buzz is about. Order your pizza today or <br> visit our resturant to create your ideal pizza!</p>
+           </div>
+           <div class="img-gallery">
+                    <img src="ph1.jpg" alt="Gallary1">
+                    <img src="ph2.jpg" alt="Gallary2">
+                    <img src="ph3.jpg" alt="Gallary3">
+                    <img src="ph4.jpg" alt="Gallary4">
+                    <img src="ph5.jpeg.jpg" alt="Gallary5">
+                    <img src="6.jpg" alt="Gallary6">
+                    <img src="./ph3.jpg" alt="Gallary8">
+                    <img src="ph9.jpg" alt="Gallary9">
+                    <img src="./ph10.jpg" alt="Gallary10">
+                    <img src="./cheese pizza.jpg" alt="Gallary">
+             </div>
+        </div>
+   </section>
+<!-- Section Gallery End -->
+</body>
+</html>

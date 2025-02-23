@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar
+{
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: #1D1D1D;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+#navbar img
+{
+  width: 150px;
+  margin-left: 100px;
+}
+
+
+#navbar ul
+{
+  display: flex;
+  margin-right:100px ;
+}
+
+#navbar ul li a
+{
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover
+{
+  border: rgba(231, 61, 12, 0.24) 2px solid;
+  border-radius: 30px;
+  background-color: rgba(231, 61, 12, 0.24);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: 1px solid #fff;
+}
+
+.btn-secondary:hover,
+.btn-third:hover {
+  background: rgb(5, 5, 5);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-third{
+  background: #e73d0c;
+}
+
+
+/* Our Story Start */
+
+#about {
+  height: 80vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .title,
+#offers .title,
+#menu .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#about h2,
+#offers h2,
+#menu h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#about h2 {
+  color: #e73d0c;
+}
+
+#about .title p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+#about .about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .about-content p {
+  margin-right: 7rem;
+  line-height: 1.6;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+#about img {
+  max-width: 450px;
+}
+
+#about .about-content a {
+  margin-top: 2rem;
+}
+
+
+/* Our Story End */
+
+/* Offers Section start */
+#offers {
+  height: 80vh;
+  background: #1a1a1a center center/cover fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#offers h2 {
+  color: #e73d0c;
+}
+
+#offers .title p {
+  color: #fff;
+  font-weight: 500;
+}
+
+#offers .offers-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#offers .offers-items img {
+  width: 200px;
+}
+
+#offers .offers-items h3 {
+  font-size: 25px;
+  color: #fff;
+  margin: 15px 0;
+}
+
+#offers .offers-items p {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#offers .offers-items span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+/* Offers Section end */
+
+/* Menu Section Start */
+#menu {
+  background: white;
+  padding: 5rem 0;
+}
+
+#menu .title h2 {
+  color: #e73d0c;
+}
+#menu .title p {
+  color: e73d0c;
+  font-weight: 500;
+}
+
+#menu .menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu .menu-items .menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+#menu .menu-items .menu-item img {
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#menu .menu-items .menu-item h3 {
+  color: #383848;
+  border-bottom: 1px dashed #c2bdbd;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#menu .menu-items .menu-item span {
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+
+#menu .menu-items .menu-item p {
+  margin-top: 10px;
+}
+
+#menu .btn {
+  display: block;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+}
+
+/* Menu Section End */
+
+/* code start*/
+.background{
+  background-color: #1A1A1A;
+  height: 50cm;
+}
+h1{
+  color:#e73d0c;
+  font-size: 60px;
+  padding-left: 35%;
+  letter-spacing: 3px;
+  position: relative;
+  top: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s1{
+  height: 13.2cm;
+  width: 9.3cm;
+  background-color: white;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 20px ;
+  position: relative;
+  left: 12%;
+  top: 90px;
+}
+.image1{
+  width: 8cm;
+  display: inline-block;
+  margin-top: 0.9cm;
+  margin-left: 0.6cm;
+  border-radius: 20px;
+}
+body{
+  background-color:white;
+}
+.t1{
+  color: black;
+  display:inline-block;
+  margin-left: .5cm ;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p1{
+  color: black;
+  display: inline-block;
+  margin-left: .01cm ;
+  margin-top: .01px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ac1{
+  display: inline-block;
+  background-color: #e73d0c;
+  width: 3.6cm;
+  height: 1.3cm;
+  border-radius: 30px;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  margin-left: 5.4cm;
+  margin-top: 0.01cm;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  position: relative;
+  bottom: 16px ;
+  color: whitesmoke;
+}
+.ac1:hover{
+  background-color: rgb(5, 5, 5);
+  color:#e4e1e1;
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(254, 254, 254, 0.527);
+}
+
+/*shaza's code end*/
+
+/*Gallery Section Start*/
+#gallery .img-gallery img {
+  width: 200px;
+  height:200px;
+  border-radius: 20px;
+  margin:20px;
+  background-color: #1A1A1A;
+}
+#gallery {
+  background-color: black;
+  background-size:cover;
+  height: 20cm;
+
+}
+.container1{
+
+  font-size: 40px;
+
+  text-align: center;
+
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+
+  margin: 10px;
+
+
+}
+
+#gallery h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #e4b95b;
+}
+.w{
+  text-align: center ;
+  color: black;
+  font-weight: 500;
+}
+.w1{
+  text-align: center ;
+  color: white;
+}
+/*Gallery Section End*/
+
+/*Contact Us Section Start*/
+#contact {
+  background:#1a1a1a;
+  padding: 5rem 0;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#contact .container {
+  max-width: 900px;
+}
+
+#contact .contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact .contact-info {
+  width: 50%;
+}
+
+#contact .contact-info div {
+  margin: 30px 0;
+  line-height: 1.7;
+}
+
+#contact .contact-info h3 {
+  font-size: 28px;
+  color:#e73d0c;
+  margin-bottom: 10px;
+}
+
+
+#contact .contact-info p  {
+  color: white ;
+  margin-right: 5px;
+}
+
+form {
+  width: 50%;
+}
+
+form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  margin: 20px 0;
+  border: none;
+  background-color: #e3e2dd;
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form button {
+  color: #fff;
+}
+
+
+/*Contact Us Section End*/
+
+
+
+/* Footer Start */
+#footer {
+  background-color:#1A1A1A ;
+  text-align: center;
+  color: whitesmoke;
+  padding: 15px 0;
+  font-size: 14px;
+}
+/* Footer End */
+
+/* Medium Screen + Tablet */
+@media (max-width: 1000px) {
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    padding: 10px;
+  }
+
+  #about {
+    height: auto;
+    padding: 4rem 2rem;
+  }
+
+  #about .about-content p {
+    margin-right: 2rem;
+  }
+
+  #about img {
+    width: 250px;
+  }
+
+  #offers .offers-items img {
+    width: 150px;
+  }
+
+  #offers .offers-items h3 {
+    font-size: 18px;
+  }
+
+  #menu .menu-items {
+    display: block;
+  }
+
+  #contact .contact-content {
+    flex-direction: column;
+  }
+
+  /* Mobile Devices */
+  @media (max-width: 600px) {
+    #navbar {
+      flex-direction: column;
+    }
+
+    #navbar img {
+      margin-bottom: 20px;
+    }
+
+    #about .about-content {
+      flex-direction: column;
+    }
+
+    #about .about-content a {
+      margin: 2rem 0;
+    }
+
+    #about img {
+      display: none;
+    }
+
+    #offers {
+      height: auto;
+      padding: 30px 10px;
+    }
+
+    #offers .offers-items {
+      flex-direction: column;
+    }
+
+    #menu .menu-items .menu-item {
+      margin: 20px 10px;
+    }
+
+  }
+}
+
