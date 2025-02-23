@@ -1,7 +1,7 @@
 ## Pizza Steve - Online Food Ordering Platform (Frontend Only)
 
 ### Overview
-This project is a **frontend-only** online food ordering platform designed for **Pizza Steve**. It provides a visually engaging interface for browsing menu items, adding them to the cart, and placing orders seamlessly.
+This project is a **frontend-only** online food ordering platform. It provides a visually engaging interface for browsing menu items, adding them to the cart, and placing orders seamlessly.
 
 ### Features
 - **Fully Responsive Design**: Works seamlessly across different screen sizes.
