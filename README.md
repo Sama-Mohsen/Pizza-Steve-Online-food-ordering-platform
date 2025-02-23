@@ -25,16 +25,12 @@ cd <project_directory>
 #### 2. Open the Website
 Simply open the `index.html` file in a browser:
 ```bash
-xdg-open index.html  # Linux
-start index.html     # Windows
-open index.html      # macOS
+xdg-open home.html  # Linux
+start home.html     # Windows
+open home.html      # macOS
 ```
 
 ### Notes
 - This project is **frontend-only**, meaning there is no backend functionality.
 - All animations and interactions are handled through **CSS & JavaScript**.
 - The website design is based on the visuals shown in the accompanying video.
-
-### Repository
-Check out the full version of the project at: **[https://github.com/Sama-Mohsen/PizzaSteve-Website.git](https://github.com/Sama-Mohsen/PizzaSteve-Website.git)**
-
