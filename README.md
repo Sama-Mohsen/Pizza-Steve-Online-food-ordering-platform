@@ -33,4 +33,3 @@ open home.html      # macOS
 ### Notes
 - This project is **frontend-only**, meaning there is no backend functionality.
 - All animations and interactions are handled through **CSS & JavaScript**.
-- The website design is based on the visuals shown in the accompanying video.
